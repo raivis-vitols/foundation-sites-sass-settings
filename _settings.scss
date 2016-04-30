@@ -5,7 +5,7 @@
 | http://foundation.zurb.com/sites/docs/global.html
 |-------------------------------------------------------------------------------
 */
-@import "components/global-styles";
+@import "_components/global-styles";
 
 /*
 |-------------------------------------------------------------------------------
@@ -14,7 +14,7 @@
 | http://foundation.zurb.com/sites/docs/media-queries.html
 |-------------------------------------------------------------------------------
 */
-@import "components/media-queries";
+@import "_components/media-queries";
 
 /*
 |-------------------------------------------------------------------------------
@@ -23,7 +23,7 @@
 | http://foundation.zurb.com/sites/docs/grid.html
 |-------------------------------------------------------------------------------
 */
-@import "components/grid";
+@import "_components/grid";
 
 /*
 |-------------------------------------------------------------------------------
@@ -32,7 +32,7 @@
 | http://foundation.zurb.com/sites/docs/typography-base.html
 |-------------------------------------------------------------------------------
 */
-@import "components/base-typography";
+@import "_components/base-typography";
 
 /*
 |-------------------------------------------------------------------------------
@@ -41,7 +41,7 @@
 | http://foundation.zurb.com/sites/docs/typography-helpers.html
 |-------------------------------------------------------------------------------
 */
-@import "components/typography-helpers";
+@import "_components/typography-helpers";
 
 /*
 |-------------------------------------------------------------------------------
@@ -50,7 +50,7 @@
 | http://foundation.zurb.com/sites/docs/forms.html
 |-------------------------------------------------------------------------------
 */
-@import "components/forms";
+@import "_components/forms";
 
 /*
 |-------------------------------------------------------------------------------
@@ -59,4 +59,4 @@
 | http://foundation.zurb.com/sites/docs/button.html
 |-------------------------------------------------------------------------------
 */
-@import "components/button";
+@import "_components/button";
