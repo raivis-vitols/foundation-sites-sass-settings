@@ -1,71 +1,56 @@
 /*
 |-------------------------------------------------------------------------------
-| Global Styles
-|
-| http://foundation.zurb.com/sites/docs/global.html
+| Default background color of a modal.
 |-------------------------------------------------------------------------------
 */
-@import "_components/global-styles";
+$reveal-background: $white;
 
 /*
 |-------------------------------------------------------------------------------
-| Media Queries
-|
-| http://foundation.zurb.com/sites/docs/media-queries.html
+| Default width of a modal, with no class applied.
 |-------------------------------------------------------------------------------
 */
-@import "_components/media-queries";
+$reveal-width: 600px;
 
 /*
 |-------------------------------------------------------------------------------
-| The Grid
-|
-| http://foundation.zurb.com/sites/docs/grid.html
+| Default maximum width of a modal.
 |-------------------------------------------------------------------------------
 */
-@import "_components/grid";
+$reveal-max-width: $global-width;
 
 /*
 |-------------------------------------------------------------------------------
-| Base Typography
-|
-| http://foundation.zurb.com/sites/docs/typography-base.html
+| Default padding inside a modal.
 |-------------------------------------------------------------------------------
 */
-@import "_components/base-typography";
+$reveal-padding: $global-padding;
 
 /*
 |-------------------------------------------------------------------------------
-| Typography Helpers
-|
-| http://foundation.zurb.com/sites/docs/typography-helpers.html
+| Default border around a modal.
 |-------------------------------------------------------------------------------
 */
-@import "_components/typography-helpers";
+$reveal-border: 1px solid $medium-gray;
 
 /*
 |-------------------------------------------------------------------------------
-| Forms
-|
-| http://foundation.zurb.com/sites/docs/forms.html
+| Default radius for modal.
 |-------------------------------------------------------------------------------
 */
-@import "_components/forms";
+$reveal-radius: $global-radius;
 
 /*
 |-------------------------------------------------------------------------------
-| Button
-|
-| http://foundation.zurb.com/sites/docs/button.html
+| Z-index for modals. The overlay uses this value, while the
+| modal itself uses this value plus one.
 |-------------------------------------------------------------------------------
 */
-@import "_components/button";
+$reveal-zindex: 1005;
 
 /*
 |-------------------------------------------------------------------------------
-| Reveal
-|
-| http://foundation.zurb.com/sites/docs/reveal.html
+| Background color of modal overlays.
 |-------------------------------------------------------------------------------
 */
-@import "_components/reveal";
+$reveal-overlay-background: rgba($black, 0.45);
